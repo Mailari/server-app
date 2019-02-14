@@ -4,8 +4,10 @@ const hbs = require('hbs');
 
 const app = express();
 
-app.listen(3000,()=>{
-    console.log('server started on port 5000');
+const PORT = process.env.PORT ||3000;
+
+app.listen(PORT,()=>{
+    console.log(`Server is upon port ${PORT} `);
 });
 
 app.use(express.static(__dirname+'/public'));
