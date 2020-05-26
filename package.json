@@ -4,9 +4,8 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "hbs": "^4.0.1"
-    ,"start":"node server.js"
   },
   "devDependencies": {},
   "scripts": {
